@@ -23,7 +23,6 @@ public class qiniuTool {
 			this.bucketname = bucketname;
 			this.key = key;
 			this.FilePath = FilePath;
-					
 	}
 	  //密钥配置
 	  Auth auth = Auth.create(ACCESS_KEY, SECRET_KEY);
@@ -53,7 +52,18 @@ public class qiniuTool {
 	          }
 	      }       
 	  }
-
+	  public static void main(String[] args) {
+			 //设置好账号的ACCESS_KEY和SECRET_KEY
+			  String ACCESS_KEY ="d13z6RYIeU8TtWa-lfH9ZhUr2ssSviVkCOcvdbL8";
+			  String SECRET_KEY = "aIGVGyrIEy9a_cfuIx2inJW3wV9AdO-64AQ6J08Z";
+			  //要上传的空间
+			  String bucketname = "andy" ;
+			  //上传到七牛后保存的文件名
+			  String key = "";
+			  //上传文件的路径
+			  String FilePath = "";
+		new qiniuTool(ACCESS_KEY, SECRET_KEY, bucketname, key, FilePath);
+	}
 	
  
 	}
