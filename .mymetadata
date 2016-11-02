@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="qiniu"
+  id="myeclipse.1477966956046"
+  context-root="/qiniu"
+  j2ee-spec="6.0"
+  archive="qiniu.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
